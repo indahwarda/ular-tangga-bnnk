@@ -3,6 +3,7 @@ import backgroundImage from "./assets/backgrond.jpg";
 import Material from "./pages/Materi.jsx"; // Import komponen Materi
 import PlayerSetup from "./components/PlayerSetup.jsx";
 import GameBoard from "./components/GameBoard.jsx";
+import Petunjuk from "./pages/Petunjuk.jsx";
 
 
 
@@ -130,7 +131,7 @@ export default function App() {
       )}
 
       {currentPage === "instructions" && (
-        <Instructions onBack={() => setCurrentPage("home")} />
+        <Petunjuk onBack={() => setCurrentPage("home")} />
       )}
     </div>
   );
