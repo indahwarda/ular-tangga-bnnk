@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import './GameBoard.css';
 import QuestionModal from "./modals/QuestionModal";
 import ResultModal from "./modals/ResultModal";
 import WinnerModal from "./modals/WinnerModal";
