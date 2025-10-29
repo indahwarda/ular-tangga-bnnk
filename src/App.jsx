@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import backgroundImage from "./assets/backgrond.jpg";
-import Material from "./pages/Materi.jsx"; // Import komponen Materi
+import Material from "./pages/Material.jsx"; 
 import PlayerSetup from "./components/PlayerSetup.jsx";
 import GameBoard from "./components/GameBoard.jsx";
 import Petunjuk from "./pages/Petunjuk.jsx";
